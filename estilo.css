@@ -1,0 +1,185 @@
+/* REMOVENDO RESTRIÇÕES DA PAGINA */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* SEÇÃO TOPO */
+.header{
+    margin: 0 auto;
+    width: auto;
+    height: 50px;
+    background-color:#002400;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    letter-spacing: 5px;
+}
+/* TEXTO DO TOPO */
+.header span{
+    vertical-align: middle;
+    line-height: 3em;
+}
+
+/* MENU TOPO */
+.menu_topo li{
+    display: block;
+    position: absolute;
+    top: -2px;
+    right: 6px;
+    height: 30px;
+    list-style: none;
+    padding: 8px 8px 0px 8px;
+}
+
+.menu_topo li img {
+    width: 25px;
+}
+
+.filter_icon{
+    filter: invert(6%) sepia(35%) saturate(3845%) hue-rotate(102deg) brightness(105%) contrast(105%);
+}
+
+.filter_icon:hover{
+    width: 26px;
+    cursor: pointer;
+    filter: invert(23%) sepia(31%) saturate(890%) hue-rotate(63deg) brightness(87%) contrast(88%);
+}
+
+/* SEÇÃO BANNER */
+.banner{
+    margin: 20px 0px 10px 0;
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    width: auto;
+    height: 200px;
+
+    text-align: center;
+}
+/* TEXTO DO BANNER */
+.banner span{
+    font-weight: bold;
+    line-height: 5em;
+    font-size: 38px;
+    letter-spacing: 3px;
+    background-color: #001800;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.banner span a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner span a:hover{
+    font-size: 43px;
+}
+
+/* SEÇÃO CONTEUDO */
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteudo_item{
+    margin:5px 10px 10px 0;
+}
+
+.conteudo_item img{
+    width: 400px;
+}
+
+.texto_imagem{
+    position: absolute;
+    width: 400px;
+    background-color: black;
+    height: 25px;
+    line-height: 1.5em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.conteudo_item:hover{
+    cursor:pointer;
+    opacity: 0.8;
+}
+
+/* SEÇÃO TAG PARA PESQUISAS */
+.conteudo_tag ul{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.conteudo_tag li{
+    color:#294A21;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 8px;
+
+    list-style: none;
+    display: inline-block;
+    background-color: #7DDF64;
+    padding: 7px;
+
+    border-radius: 3px;
+
+}
+
+.conteudo_tag li:hover{
+    cursor:pointer;
+    background-color: #A8E997;
+}
+
+/* SEÇÃO RODAPÉ */
+.footer{     
+    position:relative;
+    bottom:0px;
+    height: 40px;
+    width: 100%;
+    background-color: #001800;
+
+    color: white;
+    text-align: center;
+    line-height: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 3px;
+
+}
+
+/* quando a tela for menor ou igual a 600px 
+essas regras de css entram em ação */
+@media only screen and (max-width: 800px){
+
+    .banner span a:hover{
+    font-size: 22px;
+    }
+
+    .banner span{
+    font-weight: bold;
+    line-height: 10em;
+    font-size: 20px;
+    }
+
+    .conteudo_item img{
+        width: 100%;
+    }
+    
+    .texto_imagem{
+        text-shadow: 1px 4px 10px #130703;
+        color: white;
+        background-color: transparent;
+        font-size: 50px;
+        left: 20px;
+    }
+}
