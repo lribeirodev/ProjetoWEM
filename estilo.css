@@ -182,4 +182,10 @@ essas regras de css entram em ação */
         font-size: 50px;
         left: 20px;
     }
+
+    .footer{
+        line-height: 2em;
+        font-size: 13px;
+        padding-top: 5px;
+    }
 }
