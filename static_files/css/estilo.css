@@ -52,7 +52,7 @@ body{
 /* SEÇÃO BANNER */
 .banner{
     margin:0px 0px 10px 0;
-    background-image: url("../images/banner.jpg");
+    background-image: url("extra_images/banner.jpg");
     background-size: cover;
     background-position: center;
     width: auto;
@@ -169,7 +169,7 @@ body{
     min-width: 400px;
     height: 250px;
     margin: 30px 10px 30px 10px;
-    background-image: url('../images/novidades.jpg');
+    background-image: url('extra_images/novidades.jpg');
     background-size: cover;
     background-position: bottom;
 }
