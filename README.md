@@ -17,9 +17,3 @@ https://lribeirodev.github.io/ProjetoWEM/
 
 ### Modelagem feita na página
 <img src="/../master/modelagem/modelagem.png" width="600px"/>
-=======
-<img src="/../master/modelagem/modulo.png" width="600px"/>
-
-### Modelagem feita na página
-<img src="/../master/modelagem/modelagem.png" width="600px"/>
->>>>>>> 3e08aa8891b04cca9b576adbe15f06d626ba3df9
