@@ -7,14 +7,16 @@ body{
 .header{
     margin: 0 auto;
     width: auto;
-    height: 50px;
+    height: 60px;
     background-color:#002400;
     text-align: center;
     color:white;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 17px;
-    letter-spacing: 5px;
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+
+    border-bottom: 10px solid #001800;
 }
 /* TEXTO DO TOPO */
 .header span{
@@ -49,71 +51,41 @@ body{
 
 /* SEÇÃO BANNER */
 .banner{
-    margin: 20px 0px 10px 0;
+    margin:0px 0px 10px 0;
     background-image: url("images/banner.jpg");
     background-size: cover;
+    background-position: center;
     width: auto;
-    height: 200px;
+    height: 250px;
 
     text-align: center;
 }
+
 /* TEXTO DO BANNER */
 .banner span{
-    font-weight: bold;
-    line-height: 5em;
+    display: block;
+    font-weight: lighter;
+    line-height: 7em;
     font-size: 38px;
-    letter-spacing: 3px;
-    background-color: #001800;
-    opacity: 0.8;
-    border-radius: 10px;
-    padding: 5px;
+    letter-spacing: 0.5em;
 }
 
 .banner span a{
+    padding: 5px 20px 5px 20px;
+    border-radius: 1em;
     text-decoration: none;
     color: white;
 }
 
 .banner span a:hover{
-    font-size: 43px;
-}
-
-/* SEÇÃO CONTEUDO */
-
-.conteudo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.conteudo_item{
-    margin:5px 10px 10px 0;
-}
-
-.conteudo_item img{
-    width: 400px;
-}
-
-.texto_imagem{
-    position: absolute;
-    width: 400px;
-    background-color: black;
-    height: 25px;
-    line-height: 1.5em;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 3px;
-}
-
-.conteudo_item:hover{
-    cursor:pointer;
+    background-color: #7DDF64;
     opacity: 0.8;
 }
 
 /* SEÇÃO TAG PARA PESQUISAS */
 .conteudo_tag ul{
     margin-top: 0px;
+    margin-left: 3px;
     padding: 0px;
 }
 
@@ -122,8 +94,8 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: bold;
-    margin-top: 5px;
-    margin-left: 8px;
+    margin-top: 7px;
+    margin-left: 10px;
 
     list-style: none;
     display: inline-block;
@@ -137,6 +109,133 @@ body{
 .conteudo_tag li:hover{
     cursor:pointer;
     background-color: #A8E997;
+}
+
+.conteudo_tag span{
+    display: block;
+    margin: 0px 10px 5px 10px;
+
+    color:white;
+    background-color: #222222;
+    padding: 5px;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* SEÇÃO CONTEUDO */
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.conteudo_item{
+    margin:0px 20px 0px 0px;
+}
+
+.conteudo :last-child{
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.conteudo_item img{
+    width: 400px;
+}
+
+.texto_imagem{
+    position: absolute;
+    width: 400px;
+    background-color: #222222;
+    padding: 0px 0px 2px 0px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+.conteudo_item:hover{
+    cursor:pointer;
+    opacity: 0.8;
+}
+
+/* SEÇÃO BANNER NOVIDADES */
+.banner_novidades{
+    max-width: auto;
+    min-width: 400px;
+    height: 250px;
+    margin: 30px 10px 30px 10px;
+    background-image: url('images/background-novidade.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.banner_novidades span{
+    display: block;
+    line-height: 3em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+.banner_novidades button{
+    height: 50px;
+    padding: 5px 70px 5px 70px;
+    margin: 0 auto;
+    display: block;
+    background-color: transparent;
+    border: 5px solid white;
+    border-radius: 15px;
+    
+    font-size: 1.5em;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner_novidades button:hover{
+    cursor: pointer;
+    border-color: #7DDF64;
+    color:#7DDF64;
+}
+
+/* SEÇÃO BIOGRAFIA */
+.biografia{
+    display: flex;
+    margin: 10px 10px 30px 10px;
+}
+
+.biografia img{
+    border-radius: 100%;
+    outline:5px solid #2D2D2D;
+    outline-offset: -1px;
+    border: 4px solid #1E1E1E;
+    height: 160px;
+    margin-left: 10px;
+}
+
+.biografia_conteudo{
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.biografia_conteudo span{
+    font-size: 1.5em;
+    letter-spacing: 0.3em;
+    font-weight: lighter;
+}
+
+.biografia_conteudo p{
+    text-justify: distribute;
+    font-size: 1.5em;
 }
 
 /* SEÇÃO RODAPÉ */
@@ -167,9 +266,14 @@ essas regras de css entram em ação */
 
     .banner span{
     font-weight: bold;
-    line-height: 10em;
+    line-height: 15em;
     font-size: 15px;
     }
+
+    .conteudo_item{
+        margin-right: 0px;
+    }
+    
 
     .conteudo_item img{
         width: 100%;
@@ -182,6 +286,33 @@ essas regras de css entram em ação */
         font-size: 50px;
         left: 20px;
     }
+
+
+    .banner_novidades{
+        margin: 30px 0px 30px 0px;
+    }
+
+    .banner_novidades span{
+        line-height: 1.0em;
+        letter-spacing: 0.2em;
+        font-size: 3em;
+        padding-top: 0.5em;
+        margin-bottom: 0.5em;
+ 
+    }
+    
+    .banner_novidades button{
+        height: 50px;
+        font-size: 1.2em;
+        letter-spacing: 0.2em;
+        
+    }
+
+    .biografia_conteudo p{
+        text-justify: distribute;
+        font-size: 0.8em;
+    }
+
 
     .footer{
         line-height: 2em;
