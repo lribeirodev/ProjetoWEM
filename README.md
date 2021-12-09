@@ -12,8 +12,7 @@ https://lribeirodev.github.io/ProjetoWEM/
 ## Conteúdo modelado
 
 ### Modulos marcados no código
-<<<<<<< HEAD
-<img src="/../master/modelagem/modulos.png" width="600px"/>
+<img src="/../master/modelagem/Modulos.png" width="600px"/>
 
 ### Modelagem feita na página
-<img src="/../master/modelagem/modelagem.png" width="600px"/>
+<img src="/../master/modelagem/Modelagem.png" width="600px"/>
