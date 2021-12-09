@@ -21,6 +21,6 @@ https://lribeirodev.github.io/ProjetoWEM/
 <ul>
 <li>Aspect #1 When creating CTD we should consider images references for desktop, and mobile</li>
 <li>Aspect #2 The mockup is just a base to the possible real model, however, while making implementation the database could be altered, for example, a table, a column name URL_IMAGE_DESKTOP is better than URL_IMAGE because the more specific will turn things easy for the user to understand the implementation that was used for.</li>
-<li>Aspect #3 While shaping the page, we will consider that one element will be used to make a component, this is a SHAPE for our CAKE, now repeated images and text will use one CTD pointing to references inside the database.</li>
+<li>Aspect #3 While shaping the page, we will consider that one element will be used to make a component, this is a SHAPE for our CAKE, now repeated images and text will use one CTD to make many content instances and pointing to references inside the database.</li>
 </ul>
 
