@@ -1,4 +1,4 @@
-# Projeto Desenvolvido em HTML, CSS e Javascript
+# This project was developed with HTML, CSS, and JAVASCRIPT
 
 # Live Site
 https://lribeirodev.github.io/ProjetoWEM/
@@ -9,19 +9,19 @@ https://lribeirodev.github.io/ProjetoWEM/
 ## Desktop View
 <img src="/../master/static_files/screenshots/desktop.png" width="600px"/>
 
-## Conteúdo modelado para o projeto
+## Mackup Content Project
 
-### Modulos marcados no código
+### The code below shows us the components
 <img src="/../master/static_files/modelagem/Modulos.png" width="600px"/>
 
-### Modelagem feita na página
+### The webpage below shows us possible database schema
 <img src="/../master/static_files/modelagem/Modelagem.png" width="600px"/>
 
-<h2> Observações: </h2>
+<h2> Notes: </h2>
 <ul>
-<li>Aspecto #1 na criação do CTD devemos considerar que devem existir referências de imagem no formato desktop e mobile</li>
-
-<li>Aspecto #2 a modelagem é apenas uma base do modelo mais próximo do real, podendo em sua implementação ter alterações por exemplo na criação da tabela, o nome da coluna URL_IMAGEM_DESKTOP é melhor que URL_IMAGEM apenas.</li>
-
-<li>Aspecto #3 ao modelar a página, consideramos apenas um elemento base de cada modulo para seguirmos com a criação de sua FORMA para BOLO, assim uma imagem e texto que se repete varias vezes e tem o mesmo design utilizarão apenas um CTD utilizando as referências dentro da tabela</li>
+<li>Aspect #1 When creating CTD we should consider images references for desktop, and mobile</li>
+The mockup is just a base to the possible real model, however, while implementing the database could be alter, for example a table, a column name URL_IMAGE_DESKTOP is better then URL_IMAGE, because the more specific will turn things easy to the user undestand the implementation that was used for.
+<li>Aspect #2 The mockup is just a base to the possible real model, however, while making implementation the database could be altered, for example, a table, a column name URL_IMAGE_DESKTOP is better than URL_IMAGE because the more specific will turn things easy for the user to understand the implementation that was used for.</li>
+<li>Aspect #3 While shaping the page, we will consider that one element will be used to make a component, this is a SHAPE for our CAKE, now repeated images and text will use one CTD pointing to references inside the database.</li>
 </ul>
+
