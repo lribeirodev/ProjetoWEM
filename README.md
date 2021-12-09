@@ -17,6 +17,9 @@ https://lribeirodev.github.io/ProjetoWEM/
 ### The webpage below shows us possible database schema
 <img src="/../master/static_files/modelagem/Modelagem.png" width="600px"/>
 
+### We have a diagram about the project simplifying what How WEM works
+<img src="/../master/static_files/modelagem/Diagrama.png" width="600px"/>
+
 <h2> Notes: </h2>
 <ul>
 <li>Aspect #1 When creating CTD we should consider images references for desktop, and mobile</li>
