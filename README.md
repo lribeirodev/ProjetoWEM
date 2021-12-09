@@ -9,7 +9,7 @@ https://lribeirodev.github.io/ProjetoWEM/
 ## Desktop View
 <img src="/../master/screenshots/desktop.png" width="600px"/>
 
-## Conteúdo modelado
+## Conteúdo modelado para o projeto
 
 ### Modulos marcados no código
 <img src="/../master/modelagem/Modulos.png" width="600px"/>
