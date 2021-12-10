@@ -32,42 +32,42 @@ https://lribeirodev.github.io/ProjetoWEM/
 
 # Sql Query to create tables in oracle database
 ```sql
-CREATE TABLE top_banner
-( id varchar2(40),
-  url_link varchar2(255),
-  url_image_desktop varchar2(255),
-  url_image_mobile varchar2(255)
+CREATE TABLE REPLACE_WITH_DATABASE.TC_LUCASR_TOP_BANNER_INDEX
+( ID VARCHAR2(40) PRIMARY KEY NOT NULL,
+  URL_LINK VARCHAR2(255),
+  URL_IMAGE_DESKTOP VARCHAR2(255),
+  URL_IMAGE_MOBILE VARCHAR2(255)
 );
 
-CREATE TABLE trend
-( id varchar2(40),
-  url_link varchar2(255),
-  text_trend varchar2(255)
+CREATE TABLE REPLACE_WITH_DATABASE.TC_LUCASR_TREND_INDEX
+( ID VARCHAR2(40) PRIMARY KEY NOT NULL,
+  URL_LINK VARCHAR2(255),
+  TEXT_TREND VARCHAR2(255)
 );
 
-CREATE TABLE card
-( id varchar2(40),
-  url_link varchar2(255),
-  url_image_desktop varchar2(255),
-  url_image_mobile varchar2(255),
-  text_title varchar2(255)
+CREATE TABLE REPLACE_WITH_DATABASE.TC_LUCASR_CARD_INDEX
+( ID VARCHAR2(40) PRIMARY KEY NOT NULL,
+  URL_LINK VARCHAR2(255),
+  URL_IMAGE_DESKTOP VARCHAR2(255),
+  URL_IMAGE_MOBILE VARCHAR2(255),
+  TEXT_TITLE VARCHAR2(255)
 );
 
-CREATE TABLE carousel_banner
-( id varchar2(40),
-  url_image_desktop varchar2(255),
-  url_image_mobile varchar2(255),
-  text_title varchar2(255),
-  text_button varchar2(255),
-  url_link_button varchar2(255)
+CREATE TABLE REPLACE_WITH_DATABASE.TC_LUCASR_CAROUSEL_BANNER_INDEX
+( ID VARCHAR2(40) PRIMARY KEY NOT NULL,
+  URL_IMAGE_DESKTOP VARCHAR2(255),
+  URL_IMAGE_MOBILE VARCHAR2(255),
+  TEXT_TITLE VARCHAR2(255),
+  TEXT_BUTTON VARCHAR2(255),
+  URL_LINK_BUTTON VARCHAR2(255)
 );
 
-CREATE TABLE biography
-( id varchar2(40),
-  url_image_desktop varchar2(255),
-  url_image_mobile varchar2(255),
-  title_text varchar2(255),
-  description_text varchar2(255)
+CREATE TABLE REPLACE_WITH_DATABASE.TC_LUCASR_BIOGRAPHY_INDEX
+( ID VARCHAR2(40) PRIMARY KEY NOT NULL,
+  URL_IMAGE_DESKTOP VARCHAR2(255),
+  URL_IMAGE_MOBILE VARCHAR2(255),
+  TITLE_TEXT VARCHAR2(255),
+  DESCRIPTION_TEXT VARCHAR2(255)
 );
 ```
 </br>
