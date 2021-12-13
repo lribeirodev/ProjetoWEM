@@ -5,6 +5,9 @@ body{
 }
 /* SEÇÃO TOPO */
 .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: auto;
     height: 60px;
@@ -20,7 +23,6 @@ body{
 }
 /* TEXTO DO TOPO */
 .header span{
-    vertical-align: middle;
     line-height: 3em;
 }
 
@@ -51,6 +53,10 @@ body{
 
 /* SEÇÃO BANNER */
 .banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     margin:0px 0px 10px 0;
     background-image: url("extra_images/banner.jpg");
     background-size: cover;
@@ -62,22 +68,19 @@ body{
 }
 
 /* TEXTO DO BANNER */
-.banner span{
-    display: block;
+.banner a{
     font-weight: lighter;
-    line-height: 7em;
     font-size: 38px;
     letter-spacing: 0.5em;
-}
-
-.banner span a{
-    padding: 5px 20px 5px 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px 7px 5px 7px;
     border-radius: 1em;
     text-decoration: none;
     color: white;
 }
 
-.banner span a:hover{
+.banner a:hover{
     background-color: #7DDF64;
     opacity: 0.8;
 }
@@ -218,13 +221,13 @@ body{
     border: 4px solid #1E1E1E;
     height: 160px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .biografia_conteudo{
     width: 100%;
-    height: 150px;
+    height: auto;
     margin-top: 0px;
-    margin-left: 20px;
 }
 
 .biografia_conteudo span{
@@ -240,12 +243,11 @@ body{
 
 /* SEÇÃO RODAPÉ */
 .footer{     
-    position:relative;
-    bottom:0px;
+
     height: 40px;
     width: 100%;
     background-color: #001800;
-
+    
     color: white;
     text-align: center;
     line-height: 3em;
@@ -260,14 +262,18 @@ body{
 essas regras de css entram em ação */
 @media only screen and (max-width: 800px){
 
-    .banner span a:hover{
-    font-size: 1em;
+    .header span{
+        font-weight: lighter;
+        font-size: 0.5em;
     }
 
-    .banner span{
+    .banner a{
     font-weight: bold;
-    line-height: 15em;
     font-size: 15px;
+    }
+
+    .banner a:hover{
+        font-size: 1em;
     }
 
     .conteudo_item{
@@ -306,6 +312,14 @@ essas regras de css entram em ação */
         font-size: 1.2em;
         letter-spacing: 0.2em;
         
+    }
+
+    .biografia{
+        flex-wrap: wrap-reverse;
+    }
+
+    .biografia img{
+        display: none;
     }
 
     .biografia_conteudo p{
